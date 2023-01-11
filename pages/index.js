@@ -19,8 +19,8 @@ export default function Home() {
           <div className = "card">
         <Image 
               className = "pfp"
-              src="/peach in hand.svg"
-              alt="Picture of the author"
+              src="/gloomstudiologo.png"
+              alt="@studiogloom logo"
               width={150}
               height={150}/>
         <h3>@gloompowder</h3>
