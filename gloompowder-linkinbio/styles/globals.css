@@ -1,0 +1,262 @@
+*{
+  padding:0;
+  margin:0;
+  font-family: poppins;
+}
+
+
+.h3{
+  display: block;
+  text-align: center;
+}
+
+.background{
+  background-color: #f7f7ff;
+opacity: 1;
+background-image:  linear-gradient(#4852ff 0.5px, transparent 0.5px), linear-gradient(to right, #4852ff 0.5px, #f7f7ff 0.5px);
+background-size: 10px 10px;
+width: 90%;
+height: 90%;
+display: inline-block;
+padding: 5%;
+}
+
+.col {
+  display:inline-block;
+}
+
+.card{
+  padding: 2rem 1rem;
+  border:1px solid #4852ff;
+  background-color: white;
+  justify-content: center;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 1rem;
+  width: fit-content;
+  vertical-align: center;
+  filter: drop-shadow(10px 10px 10px #b1b5ff);
+}
+
+.card h3{
+  text-align: center;
+  margin: .5rem;
+}
+
+.card img{
+  margin: auto;
+  display: block;
+}
+
+.pfp{
+  transition: 1s ease-in-out;
+}
+
+.card img:hover {
+  transform: rotate(360deg);
+}
+
+.links > a, .links > a:active, .links > a:visited{
+  border: 2px, solid, #4852ff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.links{
+  display: flex;
+  flex-direction: column;
+}
+
+.links >a{
+  display: block;
+  padding: .8rem 4rem;
+  margin: .75rem 1rem;
+  text-align: center;
+  transition: .3s ease-in-out;
+  border:1px solid white;
+  background-color: #4852ff;
+  color:white;
+  border-radius: 5px;
+}
+.links >a:hover, .links > a.active{
+  background-color: white;
+  border:1px solid #4852ff;
+  color: #4852ff;
+}
+
+.socialmedia{
+  display: flex;
+}
+
+.socialmedia > img{
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+.socialmedia > img:hover{
+  display: inline-block;
+  transform: scale(1.15);
+  transition: .3s;
+  cursor:pointer;
+}
+
+.back-button{  
+  color:white;
+  background-color: #4852ff;
+  padding:.5rem 1rem;
+  border-style: none;
+  font-size: medium;
+  border: 1px solid white;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+  justify-self: left;
+  border-radius:5px;
+}
+
+.back-button:hover{
+  background-color: white;
+  border: .5rem 1px solid #4852ff;
+  color:#4852ff;
+  font-size: medium;
+  border: 1px solid #4852ff;
+}
+
+.buttons{
+  display: block;
+  justify-content: space-between;
+  padding: .4rem;
+}
+
+.submit-button{
+  text-decoration: none;
+  color:white;
+  background-color: #4852ff;
+  padding:.5rem 1rem;
+  border-style: none;
+  font-size: medium;
+  border: 1px solid white;
+  transition: .3s ease-in-out;
+  float: right;
+  border-radius: 5px;
+}
+
+label{
+  display:block;
+  padding-left:1rem;
+  font-size: small;
+  font-weight: 600;
+}
+.submit-button:hover{
+  color:#4852ff;
+  background-color: white;
+  border: 1px solid #4852ff;
+}
+.honey{
+  display:none;
+}
+h4{text-align: center;}
+.form-control{
+  margin:.25rem .5rem;
+  padding:.4rem;
+  border-radius: 5px;
+  border: 1px solid #4852ff;
+  display: block;
+}
+.form-control-II{
+  border: 1px solid #4852ff;
+  border-radius: 5px;
+}
+
+.contact-msg{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  resize: none;
+}
+
+.form-group-II{
+  padding:.25rem .5rem;
+}
+
+@media only screen and (max-width: 420px) {
+  .socialmedia{
+    background: white;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .contact-msg{
+    color: white;
+  }
+  .form-row-I, .form-row-II{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+  }
+  .form-row-I{
+    padding-top: 1rem;
+  }
+
+  .form-group-II{
+    background-color: white;
+    padding:.25rem .5rem;
+
+  }
+  .col{
+    align-self: center;
+  }
+  h3{
+    color: white;
+    margin-bottom: 1rem;
+    padding: 0;
+  }
+  .card{
+    margin: auto;
+    border-radius: 0;
+    border:none;
+    width: 100vw;
+    filter: none;
+    padding: 0;
+    background-color: #4852ff;
+    padding-top: 2rem;
+  }
+  .card-II{
+    margin: auto;
+    border-radius: 0;
+    border:none;
+    width: 100vw;
+    filter: none;
+    padding: 0;
+    background-color: #4852ff;
+    padding-top: 2rem;
+  }
+  .background{
+    padding: 0;
+    margin: 0;
+  }
+  .textarea{resize: none;
+    cols: 20;}
+    .buttons{
+      background-color: white;
+    }
+    .buttons{
+      display: flex;
+      flex-direction:column;
+    }
+    .buttons button, .buttons a{
+      margin: .5rem;
+      width: 120px;
+      margin: auto;
+    }
+    .form-group-II{
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: column;
+    }
+}
+
+/* .textarea{resize: none;
+  cols: 50;
+display:block} */
+
+.col-hidden{
+  display:none;
+}
