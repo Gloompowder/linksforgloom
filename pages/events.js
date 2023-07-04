@@ -21,7 +21,7 @@ export default function Contact() {
         <div className = "Eventsdiv">
         <h1>Upcoming Events</h1>
                 <div className="Eventspair">
-        <a className = "pridefair-link" href="https://artsinbushwick.org/our-productions/bushwick-vendors-market/" target="_blank" rel="norefferer" alt="Pride Fair Link">           
+        <a className = "pridefair-link" href="https://artsinbushwick.org/our-productions/bushwick-vendors-market/" target="_blank" rel="noreferrer" alt="Pride Fair Link">           
         <Image 
               className = "studio-gloom-flyer"
               src="/bushwickvendorsmarket.jpg"
@@ -33,13 +33,13 @@ export default function Contact() {
                     Bushwick Vendor Market
                 </p>
                 <p>What: Art Fair</p>
-                <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M3Z1ZjJpaHNiaTRyNnZhb2tvY2Q2Y3Q0a2Egd2lsbGxpbjE5OTZAbQ&amp;tmsrc=willlin1996%40gmail.com">
+                <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M3Z1ZjJpaHNiaTRyNnZhb2tvY2Q2Y3Q0a2Egd2lsbGxpbjE5OTZAbQ&amp;tmsrc=willlin1996%40gmail.com" rel="noreferrer">
                 <p>Where: 1444 Dekalb Avenue, Brooklyn, NY</p>
                 <p>When: Sat July 8th, 1:00 PM - 5:00 PM</p>
                 </a>
                 <div className = "event-details"></div>
             </div>
-        <a className = "lgbtcenter-link" href="https://transartbazaar.com/upcoming-bazaars" target="_blank" rel="norefferer" alt="Trans Love Pop Up Link">           
+        <a className = "lgbtcenter-link" href="https://transartbazaar.com/upcoming-bazaars" target="_blank" rel="noreferrer" alt="Trans Art Bazaar">           
         <Image 
               className = "studio-gloom-flyer"
               src="/transartbazaar.jpg"
@@ -51,7 +51,7 @@ export default function Contact() {
                     Trans Art Bazaar
                 </p>
                 <p>What: Vendor Popup</p>
-                <a className = "gmap-link" href="https://transartbazaar.com/upcoming-bazaars" target="_blank" rel="noreferrer" alt="Google Maps link to location">
+                <a className = "gmap-link" href="https://transartbazaar.com/upcoming-bazaars" target="_blank" rel="noreferrer" alt="Trans Art Bazaar">
                 <p>Where: 8 Wyckoff Ave Brooklyn, NY</p>
                 </a>
                 <p>When: Sun July 9th, 1:00 PM - 7:00 PM</p>
@@ -87,7 +87,7 @@ alt='under construction'
         <h1>Past Events</h1>
         
         <div className="Eventspair">
-        <a className = "pridefair-link" href="https://www.elmfoundation.art/events-1/pride-fair" target="_blank" rel="norefferer" alt="Pride Fair Link">           
+        <a className = "pridefair-link" href="https://www.elmfoundation.art/events-1/pride-fair" target="_blank" rel="noreferrer" alt="Pride Fair Link">           
         <Image 
               className = "studio-gloom-flyer"
               src="/pridefairlink.webp"
@@ -99,13 +99,13 @@ alt='under construction'
                     Pride Fair
                 </p>
                 <p>What: Vending and Raffle</p>
-                <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M3Z1ZjJpaHNiaTRyNnZhb2tvY2Q2Y3Q0a2Egd2lsbGxpbjE5OTZAbQ&amp;tmsrc=willlin1996%40gmail.com">
+                <a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=M3Z1ZjJpaHNiaTRyNnZhb2tvY2Q2Y3Q0a2Egd2lsbGxpbjE5OTZAbQ&amp;tmsrc=willlin1996%40gmail.com" rel="noreferrer" alt="Pride Fair Link">
                 <p>Where: Brooklyn, 191 N 14th St, Brooklyn, NY 11249, USA</p>
                 <p>When: Jun 10, 12:00 PM – Jun 11, 6:00 PM</p>
                 </a>
                 <div className = "event-details"></div>
             </div>
-        <a className = "lgbtcenter-link" href="https://gaycenter.org/trans-love/" target="_blank" rel="norefferer" alt="Trans Love Pop Up Link">           
+        <a className = "lgbtcenter-link" href="https://gaycenter.org/trans-love/" target="_blank" rel="noreferrer" alt="Trans Love Pop Up Link">           
         <Image 
               className = "studio-gloom-flyer"
               src="/studio-gloom-flyer.png"
