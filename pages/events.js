@@ -20,7 +20,34 @@ export default function Contact() {
         <div className = "Events-background">
         <div className = "Eventsdiv">
         <h1>Upcoming Events</h1>
-                <div className="Eventspair">
+        {/* <h4>no upcoming events</h4> */}
+        {/* <div className="Eventspair">
+<a className = "lgbtcenter-link" href="https://gaycenter.org/trans-love/" target="_blank" rel="norefferer">
+        <Image 
+        width="100"
+        height="100"
+objectFit='contain'
+alt='under construction'
+              src="/under_construction.png"
+              style={imageStyle}/>
+                      </a>
+            <div className ="event-description">
+                <p>
+                    Online Grand Opening
+                </p>
+                <p>Where: https://www.studiogloom.com</p>
+                <p>When: Saturday, April 8th, 12am EST</p>
+                <p></p>
+                <div className = "event-details">
+                    <p className="setting"></p>
+                    <p className="time"></p>
+                </div>
+            </div>
+        </div> */}
+        </div>
+        <div className = "EventsDiv">
+        <h1>Past Events</h1>
+        <div className="Eventspair">
         <a className = "pridefair-link" href="https://artsinbushwick.org/our-productions/bushwick-vendors-market/" target="_blank" rel="noreferrer" alt="Pride Fair Link">           
         <Image 
               className = "studio-gloom-flyer"
@@ -58,34 +85,6 @@ export default function Contact() {
                 <div className = "event-details"></div>
             </div>
         </div>
-        {/* <h4>no upcoming events</h4> */}
-        {/* <div className="Eventspair">
-<a className = "lgbtcenter-link" href="https://gaycenter.org/trans-love/" target="_blank" rel="norefferer">
-        <Image 
-        width="100"
-        height="100"
-objectFit='contain'
-alt='under construction'
-              src="/under_construction.png"
-              style={imageStyle}/>
-                      </a>
-            <div className ="event-description">
-                <p>
-                    Online Grand Opening
-                </p>
-                <p>Where: https://www.studiogloom.com</p>
-                <p>When: Saturday, April 8th, 12am EST</p>
-                <p></p>
-                <div className = "event-details">
-                    <p className="setting"></p>
-                    <p className="time"></p>
-                </div>
-            </div>
-        </div> */}
-        </div>
-        <div className = "EventsDiv">
-        <h1>Past Events</h1>
-        
         <div className="Eventspair">
         <a className = "pridefair-link" href="https://www.elmfoundation.art/events-1/pride-fair" target="_blank" rel="noreferrer" alt="Pride Fair Link">           
         <Image 
