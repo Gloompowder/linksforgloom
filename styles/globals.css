@@ -110,7 +110,7 @@ padding: 5%;
   cursor:pointer;
 }
 
-.back-button{  
+.back-button, .view-button{  
   color:white;
   background-color: #4852ff;
   padding:.5rem 1rem;
@@ -121,16 +121,19 @@ padding: 5%;
   transition: .3s ease-in-out;
   justify-self: left;
   border-radius:5px;
+  display:flex;
 }
 
-.back-button:hover{
+.back-button:hover, .view-button:hover{
   background-color: white;
   border: .5rem 1px solid #4852ff;
   color:#4852ff;
   font-size: medium;
   border: 1px solid #4852ff;
 }
-
+.view-button{
+  margin:auto;
+}
 .buttons{
   display: block;
   justify-content: space-between;

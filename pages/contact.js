@@ -66,7 +66,7 @@ export default function Contact() {
     </div>
     <div className ="buttons">
     <Link  href="/"><button className = "back-button">Back</button></Link>
-    <button type="submit" className="submit-button">Submit</button>
+  <button type="submit" className="submit-button">Submit</button>
     </div>
   </form>
 </div>
