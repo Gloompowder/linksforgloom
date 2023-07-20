@@ -19,13 +19,12 @@ export default function SocialMedia(){
                         height={50}
                         />
             </Link>
-            <Link                   href='https://studiogloom.shop' target='_blank' rel="noreferrer">
+            <Link                   href='https://tiktok.com/@studiogloom/' target='_blank' rel="noreferrer">
                         <Image 
                         src="/tik-tok.png"
                         alt="tik tok icon"
                         width={50}
-                        height={50}
-                        href='https://tiktok.com/@studiogloom/' target='_blank' rel="noreferrer"/>  
+                        height={50}/>  
                   {/* </a> */}
             </Link>
                       
