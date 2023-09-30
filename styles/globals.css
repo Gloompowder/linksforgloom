@@ -110,7 +110,7 @@ padding: 5%;
   cursor:pointer;
 }
 
-.back-button, .view-button{  
+.back-button, .October-button, .view-button, .submit-button{ 
   color:white;
   background-color: #4852ff;
   padding:.5rem 1rem;
@@ -119,17 +119,17 @@ padding: 5%;
   border: 1px solid white;
   text-decoration: none;
   transition: .3s ease-in-out;
-  justify-self: left;
   border-radius:5px;
   display:flex;
 }
 
-.back-button:hover, .view-button:hover{
+.back-button:hover, .view-button:hover, .October-button, .submit-button:hover{
   background-color: white;
   border: .5rem 1px solid #4852ff;
   color:#4852ff;
   font-size: medium;
   border: 1px solid #4852ff;
+  cursor:pointer;
 }
 .view-button{
   margin:auto;
@@ -140,7 +140,7 @@ padding: 5%;
   padding: .4rem;
 }
 
-.submit-button{
+/* .submit-button{
   text-decoration: none;
   color:white;
   background-color: #4852ff;
@@ -151,7 +151,7 @@ padding: 5%;
   transition: .3s ease-in-out;
   float: right;
   border-radius: 5px;
-}
+} */
 
 label{
   display:block;
@@ -283,7 +283,7 @@ display:block} */
   margin: 2rem 0;
   position:relative;
 }
-.event-description{
+.event-description, .event-description-october{
   padding:1rem;
   border-radius: 5px;
   border-top-left-radius: 0;
@@ -349,4 +349,14 @@ link:visited{
 
  .scroll-left p a{
      color: rgb(236, 255, 159);
+ }
+
+ .October-button, .event-description-october{
+   background-color: #ff8340;
+   color: white;
+   border: 1px solid #ff8340;
+ }
+
+ .October-button{
+   margin:auto;
  }
